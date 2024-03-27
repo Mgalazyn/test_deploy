@@ -9,7 +9,9 @@
     "test": "ng test",
     "serve:ssr:test_17": "node dist/test_17/server/server.mjs",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "homepage": "https://mgalazyn.github.io/test_17/",
+    "publish": "gh-pages -d src"
   },
   "private": true,
   "dependencies": {
